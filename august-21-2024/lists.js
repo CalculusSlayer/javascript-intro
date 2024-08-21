@@ -23,3 +23,8 @@ console.log("Remove 4 from array1");
 array1.splice(2, 1);
 console.log(`array1: [${array1}]`);
 console.log();
+
+console.log("Prepend 40 in array1");
+array1.splice(0, 0, 40);
+console.log(`array1: [${array1}]`);
+console.log();
