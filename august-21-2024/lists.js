@@ -18,3 +18,8 @@ console.log("Append 5 to array1");
 array1.push(5);
 console.log(`array1: [${array1}]`);
 console.log();
+
+console.log("Remove 4 from array1");
+array1.splice(2, 1);
+console.log(`array1: [${array1}]`);
+console.log();
